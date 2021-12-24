@@ -1871,6 +1871,11 @@ namespace MagicNumber
                     new MagicNumberRecord(){ Number = new byte[] {  0x5A, 0x4F, 0x4F, 0x20 }, Offset = 0, Size = 4 }
                 }
             },
+            {
+                "apk", new List<MagicNumberRecord> {
+                    new MagicNumberRecord(){ Number = new byte[] {  0x50, 0x4B, 0x03, 0x04 }, Offset = 0, Size = 4 }
+                }
+            }
         };
     }
 }
